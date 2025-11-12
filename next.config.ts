@@ -16,7 +16,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  outputFileTracingRoot: path.resolve(__dirname, '../../'),
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -29,10 +28,6 @@ const nextConfig: NextConfig = {
         loaders: [LOADER]
       }
     }
-  },
-  // CRITICAL: Increase body size limit for large file uploads (videos)
-  experimental: {
-    bodyLimit: '500mb', // Match MAX_FILE_SIZE in upload route
   },
 };
 
