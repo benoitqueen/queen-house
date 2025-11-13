@@ -100,7 +100,7 @@
         "vaul": "^1.1.2",
         "zod": "^4.1.12"
     },
-    "devDependencies": {
+    "devDependencies": {"@netlify/plugin-nextjs": "^5.7.4",
         "@eslint/eslintrc": "^3.3.1",
         "@tailwindcss/postcss": "^4",
         "@types/node": "^20",
